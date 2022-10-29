@@ -174,11 +174,7 @@
     padding-left: 160px;
   }
 }
-@media (max-width: 770px) {
-  #hero {
-    height: 100%;
-  }
-}
+
 
 #hero:before {
   content: "";
