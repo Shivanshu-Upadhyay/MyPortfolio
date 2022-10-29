@@ -21,7 +21,7 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<SideBar/>}>
-        <Route index element={<Home />} />
+        <Route path='/home' element={<Home />} />
         <Route path='about' element={<About />} />
         <Route path='resume' element={<Resume />} />
       </Route>
