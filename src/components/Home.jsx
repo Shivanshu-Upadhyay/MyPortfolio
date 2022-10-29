@@ -79,7 +79,7 @@ function Home() {
             </a>
           </div>
         </div>
-        <div className="col-6">
+        <div className="col-md-6 ">
           <lottie-player
             src="https://assets5.lottiefiles.com/packages/lf20_tfb3estd.json"
             background="transparent"
