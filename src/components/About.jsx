@@ -14,7 +14,7 @@ function About() {
     config: { mass: 5, tension: 350, friction: 40 },
   }));
   return (
-    <div>
+   
       <section id="about" className="about">
         <div className="container" data-aos="fade-up">
           <div className="section-title">
@@ -105,7 +105,7 @@ function About() {
           </div>
         </div>
       </section>
-    </div>
+    
   );
 }
 
