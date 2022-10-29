@@ -1,9 +1,5 @@
 import React, { useEffect } from 'react'
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-} from "react-router-dom";
+import { BrowserRouter, Routes, Route,} from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './App.css'
@@ -20,8 +16,9 @@ function App() {
     <>
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<SideBar/>}>
-        <Route path='/home' element={<Home />} />
+      <Route path='/' element={<SideBar/>}>
+        <Route index element={<Home />} />
+        <Route path='home' element={<Home />} />
         <Route path='about' element={<About />} />
         <Route path='resume' element={<Resume />} />
       </Route>
