@@ -1,9 +1,18 @@
 import React from "react";
+import { useState } from "react";
 import {Link, Outlet } from "react-router-dom";
 function SideBar() {
+  const [toggle,setToggle] = useState(false)
+
+  const sidebarOpen = ()=>{
+    setToggle((pre)=>!pre)
+    const element=document.querySelector('body');
+    element.classList.toggle("mobile-nav-active");
+  }
   return (
     <>
-      <header id="header" className="d-flex flex-column justify-content-center">
+    <i class={`${!toggle?"fa-solid fa-bars":"fa-sharp fa-solid fa-xmark"}  mobile-nav-toggle d-lg-none` }style={{color:"#fff"}} onClick={sidebarOpen}></i>
+      <header id="header" className="d-flex flex-column justify-content-center ">
         <nav id="navbar" className="navbar nav-menu">
           <ul>
             <li>
