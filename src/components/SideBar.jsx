@@ -11,13 +11,13 @@ function SideBar() {
   }
   return (
     <>
-    <i class={`${!toggle?"fa-solid fa-bars":"fa-sharp fa-solid fa-xmark"} buttonForToggle mobile-nav-toggle d-lg-none ` } onClick={sidebarOpen}></i>
+    <i className={`${!toggle?"fa-solid fa-bars":"fa-sharp fa-solid fa-xmark"} buttonForToggle mobile-nav-toggle d-lg-none ` } onClick={sidebarOpen}></i>
     
       <header id="header" className="d-flex flex-column justify-content-center ">
         <nav id="navbar" className="navbar nav-menu">
           <ul>
             <li>
-              <NavLink to="/home" className="nav-link scrollto" onClick={sidebarOpen}>
+              <NavLink to="home" className="nav-link scrollto " onClick={sidebarOpen}>
               <i className="fa-solid fa-house"></i> <span>Home</span>
               </NavLink>
             </li>
