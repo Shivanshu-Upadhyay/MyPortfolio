@@ -1,8 +1,8 @@
 import React from "react";
-import projec1 from "../img/project1.png";
-import projec2 from "../img/project2.png";
-import projec3 from "../img/project3.png";
-import projec4 from "../img/project4.png";
+import projec1 from "../img/project1.jpg";
+import projec2 from "../img/project2.jpg";
+import projec3 from "../img/project3.jpg";
+import projec4 from "../img/project4.jpg";
 
 function Work() {
  const project = [

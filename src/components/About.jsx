@@ -45,12 +45,14 @@ function About() {
               </p>
               <div className="row">
                 <div className="col-lg-6">
-                  <ul>
-                    <li>
-                      <i className="bi bi-chevron-right"></i>
-                      <strong>Birthday:</strong> <span>30 June 2000</span>
-                    </li>
-                    <li>
+                <h4 style={{color:"#728394"}}>Contact Contact Details</h4>
+                <ul>
+                    <div>
+                    <i className="bi bi-chevron-right"></i>
+                      <strong>Email:</strong>
+                      <a href="mailto:heyshivanshu01@gmail.com" style={{ textDecoration: "none" }}>heyshivanshu01@gmail.com</a>
+                    </div>
+                    <div>
                       <i className="bi bi-chevron-right"></i>
                       <strong>Website:</strong>{" "}
                       <a
@@ -59,37 +61,20 @@ function About() {
                       >
                         https://heyshivanshu.netlify.app
                       </a>
-                    </li>
-                    <li>
+                    </div>
+                    <div>
                       <i className="bi bi-chevron-right"></i>
                       <strong>Phone:</strong> <a href="tel:+917880811002" style={{ textDecoration: "none" }}>+917880811002</a>
-                    </li>
-                    <li>
+                    </div>
+                    <div>
                       <i className="bi bi-chevron-right"></i>
                       <strong>City:</strong> <span>Delhi In</span>
-                    </li>
+                    </div>
                   </ul>
                 </div>
-                <div className="col-lg-6">
-                  <ul>
-                    <li>
-                      <i className="bi bi-chevron-right"></i>
-                      <strong>Age:</strong> <span>22</span>
-                    </li>
-                    <li>
-                      <i className="bi bi-chevron-right"></i>
-                      <strong>Degree:</strong> <span>Master</span>
-                    </li>
-                    <li>
-                      <i className="bi bi-chevron-right"></i>
-                      <strong>Email:</strong>
-                      <a href="mailto:heyshivanshu01@gmail.com" style={{ textDecoration: "none" }}>heyshivanshu01@gmail.com</a>
-                    </li>
-                    <li>
-                      <i className="bi bi-chevron-right"></i>
-                      <strong>Freelance:</strong> <span>Available</span>
-                    </li>
-                  </ul>
+                <div className="col-lg-6 d-flex  align-items-center">
+               
+<a href="../img/banner-bg.png" class="button-58" download ><span class="text"><i class="fa-solid fa-download"></i> Download Resume</span></a>
                 </div>
               </div>
               <p>
