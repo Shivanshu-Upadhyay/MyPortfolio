@@ -7,6 +7,7 @@ import SideBar from './components/SideBar';
 import Home from './components/Home';
 import About from './components/About';
 import Resume from './components/Resume';
+import Work from './components/Work';
 
 function App() {
   useEffect(()=>{
@@ -21,6 +22,7 @@ function App() {
         <Route path='home' element={<Home />} />
         <Route path='about' element={<About />} />
         <Route path='resume' element={<Resume />} />
+        <Route path='work' element={<Work />} />
          
       </Route>
       <Route

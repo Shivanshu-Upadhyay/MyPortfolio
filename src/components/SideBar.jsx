@@ -32,7 +32,7 @@ function SideBar() {
               </NavLink>
             </li>
             <li>
-              <NavLink to="portfolio" className="nav-link scrollto" onClick={sidebarOpen}>
+              <NavLink to="work" className="nav-link scrollto" onClick={sidebarOpen}>
               <i className="fa-solid fa-briefcase"></i> <span>Work</span>
               </NavLink>
             </li>

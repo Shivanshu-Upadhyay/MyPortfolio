@@ -11,7 +11,7 @@ function About() {
     `perspective(600px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`;
   const [props, set] = useSpring(() => ({
     xys: [0, 0, 1],
-    config: { mass: 5, tension: 350, friction: 40 },
+    config: { mass: 5, tension: 300, friction: 60 },
   }));
   return (
    
@@ -62,7 +62,7 @@ function About() {
                     </li>
                     <li>
                       <i className="bi bi-chevron-right"></i>
-                      <strong>Phone:</strong> <span>+917880811002</span>
+                      <strong>Phone:</strong> <a href="tel:+917880811002" style={{ textDecoration: "none" }}>+917880811002</a>
                     </li>
                     <li>
                       <i className="bi bi-chevron-right"></i>
@@ -82,8 +82,8 @@ function About() {
                     </li>
                     <li>
                       <i className="bi bi-chevron-right"></i>
-                      <strong>PhEmailone:</strong>
-                      <span>heyshivanshu01@gmail.com</span>
+                      <strong>Email:</strong>
+                      <a href="mailto:heyshivanshu01@gmail.com" style={{ textDecoration: "none" }}>heyshivanshu01@gmail.com</a>
                     </li>
                     <li>
                       <i className="bi bi-chevron-right"></i>
