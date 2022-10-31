@@ -8,22 +8,22 @@ function Work() {
  const project = [
     {
     url:"https://shivanshuresume.netlify.app/",
-    github:"",
+    github:"https://github.com/Shivanshu-Upadhyay/Resume",
     img:projec1
  },
     {
     url:"https://physiomaticaproject2.netlify.app/",
-    github:"",
+    github:"https://github.com/Shivanshu-Upadhyay/physiomatica-website",
     img:projec2
  },
     {
     url:"https://heyshareme.netlify.app/login",
-    github:"",
+    github:"https://github.com/Shivanshu-Upadhyay/ShremeFrontend",
     img:projec3
  },
     {
-    url:"",
-    github:"",
+    url:"https://heyshivanshu.netlify.app/api/home",
+    github:"https://github.com/Shivanshu-Upadhyay/MyPortfolio",
     img:projec4
  },
 ]
