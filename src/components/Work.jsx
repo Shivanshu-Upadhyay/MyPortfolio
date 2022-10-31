@@ -54,7 +54,6 @@ const Card = ({img,url,github})=>{
     <div class="portfolio-wrap">
       <img src={img} class="img-fluid" alt="" height="100%" />
       <div class="portfolio-info">
-        <h4>Project Links</h4>
         <div class="portfolio-links  d-flex justify-content-between my-3" style={{width:"28%"}}>
         <a
             href={url}

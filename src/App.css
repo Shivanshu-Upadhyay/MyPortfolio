@@ -460,6 +460,13 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+@media (min-width: 991px) {
+  #portfolio {
+    padding-left: 80px;
+  }
+}
+
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -589,7 +596,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #148af9;
+  color: #32097a;
 }
 
 .portfolio .portfolio-wrap:hover::before {
