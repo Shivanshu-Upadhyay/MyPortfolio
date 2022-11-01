@@ -8,7 +8,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Resume from './components/Resume';
 import Work from './components/Work';
-
+import Services from './components/Services.jsx'
 function App() {
   useEffect(()=>{
     AOS.init();
@@ -18,16 +18,17 @@ function App() {
     <>
     <BrowserRouter>
     <Routes>
-      <Route path='/api' element={<SideBar/>}>
+      <Route path='/page' element={<SideBar/>}>
         <Route path='home' element={<Home />} />
         <Route path='about' element={<About />} />
         <Route path='resume' element={<Resume />} />
         <Route path='work' element={<Work />} />
+        <Route path='Skill' element={<Services />} />
          
       </Route>
       <Route
         path="*"
-        element={<Navigate to="api/home" replace />}
+        element={<Navigate to="page/home" replace />}
     />
     </Routes>
   </BrowserRouter>
