@@ -29,14 +29,14 @@ function Work() {
 ]
 
   return (
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
+    <section id="portfolio" className="portfolio section-bg">
+      <div className="container" data-aos="fade-up">
+        <div className="section-title">
           <h2>Work</h2>
         </div>
 
         <div
-          class="row portfolio-container"
+          className="row portfolio-container"
           data-aos="fade-up"
           data-aos-delay="200"
         >
@@ -50,11 +50,11 @@ function Work() {
 
 
 const Card = ({img,url,github})=>{
-    return <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-    <div class="portfolio-wrap">
-      <img src={img} class="img-fluid" alt="" height="100%" />
-      <div class="portfolio-info">
-        <div class="portfolio-links  d-flex justify-content-between my-3" style={{width:"28%"}}>
+    return <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+    <div className="portfolio-wrap">
+      <img src={img} className="img-fluid" alt="" height="100%" />
+      <div className="portfolio-info">
+        <div className="portfolio-links  d-flex justify-content-between my-3" style={{width:"28%"}}>
         <a
             href={url}
             className="linkedin"

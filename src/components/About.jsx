@@ -33,9 +33,8 @@ function About() {
   ]
 
   return (
-    <>
+   
     <section id="about" className="about">
-
       <div className="container" data-aos="fade-up">
         <div className="section-title">
           <h2>About</h2>
@@ -48,7 +47,7 @@ function About() {
               set({ xys: calc(x, y) })
             }
             onMouseLeave={() => set({ xys: [0, 0, 1] })}
-            style={{ transform: props.xys.interpolate(trans) }}
+            style={{ transform: props.xys.to(trans) }}
           >
             <img src={myimg} className="img-fluid borderNew" alt="not found" />
           </animated.div>
@@ -108,9 +107,9 @@ function About() {
                 
               </div>
               <div className="col-lg-6 d-flex  align-items-center">
-                <a href="../img/shivanshu.pdf" class="button-58" download>
-                  <span class="text">
-                    <i class="fa-solid fa-download"></i> Download Resume
+                <a href="../img/shivanshu.pdf" className="button-58" download>
+                  <span className="text">
+                    <i className="fa-solid fa-download"></i> Download Resume
                   </span>
                 </a>
               </div>
@@ -122,19 +121,18 @@ function About() {
         </div>
       </div>
       
-    </section>
-     <div id="skills" class="skills section-bg mb-5">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
+     <div id="skills" className="skills section-bg mb-5">
+      <div className="container" data-aos="fade-up">
+        <div className="section-title">
           <h2>Skills</h2>
           <p>I love working on new and exciting technologies emerging nowadays.I have good work experience as a MERN Stack Developer in startup(s) and UI/UX Designer where I was core member of the development team and done quite some contribution to open source as well</p>
         </div>
-        <div class="row skills-content">
+        <div className="row skills-content">
           {skills.map((item)=>{
-            return <div class="col-lg-6"key={item.name}>
-             <div class="progress" >
-              <span class="skill">{item.name} <i class="val">{item.val}%</i></span>
-              <div class="progress-bar-wrap" style={{borderRadius:"5px"}}>
+            return <div className="col-lg-6"key={item.name}>
+             <div className="progress" >
+              <span className="skill">{item.name} <i className="val">{item.val}%</i></span>
+              <div className="progress-bar-wrap" style={{borderRadius:"5px"}}>
               <ProgressBar completed={item.val} height="10px" isLabelVisible={false} transitionDuration="3s" animateOnRender={true} />
               </div>
             </div>
@@ -143,7 +141,8 @@ function About() {
         </div>
       </div>
     </div>
-    </>
+    </section>
+   
   );
 }
 
