@@ -29,7 +29,7 @@ function Services() {
         </div>
 
         <div class="row gy-4">
-        {data.map((item)=>  <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100" key={item.name}>
+        {data.map((item)=>  <div class="col-lg-4 col-md-6 d-flex align-items-stretch"  key={item.name}>
             <div class="chef-member">
               <div class="member-img">
                 <img src={item.img} class="img-fluid" alt="" height="500px"/>
