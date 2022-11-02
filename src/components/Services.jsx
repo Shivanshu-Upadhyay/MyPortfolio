@@ -1,7 +1,7 @@
 import React from 'react'
-import webimg from '../img/webdev.png'
-import appimg from '../img/appdev.png'
-import blockimg from '../img/blockchain.png'
+import webimg from '../img/webdev.jpg'
+import appimg from '../img/appdev.jpg'
+import blockimg from '../img/blockchain.jpg'
 function Services() {
   const data = [
     {
