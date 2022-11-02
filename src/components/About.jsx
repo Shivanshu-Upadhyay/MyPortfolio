@@ -119,10 +119,8 @@ function About() {
 
          
         </div>
-      </div>
-      
-     <div id="skills" className="skills section-bg mb-5">
-      <div className="container" data-aos="fade-up">
+        <div id="skills" className="skills section-bg my-5">
+      <div className="container">
         <div className="section-title">
           <h2>Skills</h2>
           <p>I love working on new and exciting technologies emerging nowadays.I have good work experience as a MERN Stack Developer in startup(s) and UI/UX Designer where I was core member of the development team and done quite some contribution to open source as well</p>
@@ -141,6 +139,9 @@ function About() {
         </div>
       </div>
     </div>
+      </div>
+      
+    
     </section>
    
   );
