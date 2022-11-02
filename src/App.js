@@ -9,6 +9,7 @@ import About from './components/About';
 import Resume from './components/Resume';
 import Work from './components/Work';
 import Services from './components/Services.jsx'
+import Contact from './components/Contact';
 function App() {
   useEffect(()=>{
     AOS.init();
@@ -23,7 +24,8 @@ function App() {
         <Route path='about' element={<About />} />
         <Route path='resume' element={<Resume />} />
         <Route path='work' element={<Work />} />
-        <Route path='Skill' element={<Services />} />
+        <Route path='Services' element={<Services />} />
+        <Route path='contact' element={<Contact />} />
          
       </Route>
       <Route
