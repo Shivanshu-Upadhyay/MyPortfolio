@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div class="contact1" id='contact'>
+    <div class="contact1" id='contact' data-aos="fade-up">
 		<div class="container-contact1">
 			<div class="contact1-pic js-tilt" data-tilt>
             <lottie-player
