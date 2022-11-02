@@ -2,6 +2,7 @@ import React from "react";
 import myimg from "../img/myimg.jpg";
 import ProgressBar from "@ramonak/react-progress-bar";
 import { useSpring, animated } from "react-spring";
+import resume from '../img/shivanshu.pdf'
 function About() {
   const calc = (x, y) => [
     -(y - window.innerHeight / 2) / 20,
@@ -107,7 +108,7 @@ function About() {
                 
               </div>
               <div className="col-lg-6 d-flex  align-items-center">
-                <a href="../img/shivanshu.pdf" className="button-58" download>
+                <a href={resume} className="button-58" download>
                   <span className="text">
                     <i className="fa-solid fa-download"></i> Download Resume
                   </span>
