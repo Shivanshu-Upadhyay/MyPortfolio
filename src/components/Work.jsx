@@ -3,6 +3,7 @@ import projec1 from "../img/project1.jpg";
 import projec2 from "../img/project2.jpg";
 import projec3 from "../img/project3.jpg";
 import projec4 from "../img/project4.jpg";
+import projec5 from "../img/project5.jpg";
 
 function Work() {
  const project = [
@@ -25,6 +26,11 @@ function Work() {
     url:"https://heyshivanshu.netlify.app/api/home",
     github:"https://github.com/Shivanshu-Upadhyay/MyPortfolio",
     img:projec4
+ },
+    {
+    url:"https://fileshareonline.netlify.app/",
+    github:"https://github.com/Shivanshu-Upadhyay/FileShare.git",
+    img:projec5
  },
 ]
 
