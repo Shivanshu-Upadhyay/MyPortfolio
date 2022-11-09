@@ -1,5 +1,6 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
+import {Link} from 'react-router-dom'
 function Home() {
   return (
     <section id="hero">
@@ -27,7 +28,7 @@ function Home() {
           
 
           <a href="#connect" className="button-62 my-3">
-            <span>Let’s Connect</span>
+            <Link to="/contact">Let’s Connect</Link>
           </a>
 
           <div className="social-links">
