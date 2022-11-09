@@ -27,9 +27,9 @@ function Home() {
           </p>
           
 
-          <a href="#connect" className="button-62 my-3">
-            <Link to="/contact">Let’s Connect</Link>
-          </a>
+          <div  className="button-62 my-3">
+            <Link to="/page/contact" style={{textDecoration:"none",color:"inherit"}}>Let’s Connect</Link>
+          </div>
 
           <div className="social-links">
             <a

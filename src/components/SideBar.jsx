@@ -16,7 +16,7 @@ function SideBar() {
         <nav id="navbar" className="navbar nav-menu">
           <ul>
             <li>
-              <NavLink to="home" className="nav-link scrollto " onClick={sidebarOpen}>
+              <NavLink to="home" className="nav-link scrollto" onClick={sidebarOpen}>
               <i className="fa-solid fa-house"></i> <span>Home</span>
               </NavLink>
             </li>
