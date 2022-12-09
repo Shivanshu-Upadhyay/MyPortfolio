@@ -3,7 +3,6 @@ import { useState } from "react";
 import {NavLink, Outlet } from "react-router-dom";
 function SideBar() {
   const [toggle,setToggle] = useState(false)
-
   const sidebarOpen = ()=>{
     setToggle((pre)=>!pre)
     const element=document.querySelector('body');
