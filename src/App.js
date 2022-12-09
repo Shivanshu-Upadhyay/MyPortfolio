@@ -10,20 +10,13 @@ import Resume from "./components/Resume";
 import Work from "./components/Work";
 import Services from "./components/Services.jsx";
 import Contact from "./components/Contact";
-import Loader from "./components/Loader";
 function App() {
-  const [loading, setLoading] = useState(true);
   useEffect(() => {
     AOS.init();
-    setTimeout(() => {
-      setLoading(false);
-    }, 1000);
   }, []);
-  if (loading) {
-    return <Loader />;
-  }
+  
   return (
-    <>
+   
       <BrowserRouter>
         <Routes>
           <Route path="/page" element={<SideBar />}>
@@ -37,7 +30,7 @@ function App() {
           <Route path="*" element={<Navigate to="page/home" replace />} />
         </Routes>
       </BrowserRouter>
-    </>
+    
   );
 }
 
