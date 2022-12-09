@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -14,9 +14,7 @@ function App() {
   useEffect(() => {
     AOS.init();
   }, []);
-  
   return (
-   
       <BrowserRouter>
         <Routes>
           <Route path="/page" element={<SideBar />}>
@@ -30,7 +28,6 @@ function App() {
           <Route path="*" element={<Navigate to="page/home" replace />} />
         </Routes>
       </BrowserRouter>
-    
   );
 }
 
