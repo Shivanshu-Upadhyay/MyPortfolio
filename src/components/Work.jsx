@@ -4,6 +4,9 @@ import projec2 from "../img/project2.jpg";
 import projec3 from "../img/project3.jpg";
 import projec4 from "../img/project4.jpg";
 import projec5 from "../img/project5.jpg";
+import projec6 from "../img/project6.png";
+import projec7 from "../img/project7.png";
+import projec8 from "../img/project8.png";
 
 function Work() {
  const project = [
@@ -31,6 +34,21 @@ function Work() {
     url:"https://fileshareonline.netlify.app/",
     github:"https://github.com/Shivanshu-Upadhyay/FileShare.git",
     img:projec5
+ },
+    {
+    url:"https://ubankmerchant.netlify.app/login",
+    github:"https://github.com/Shivanshu-Upadhyay/UBankMerchant.git",
+    img:projec6
+ },
+    {
+    url:"https://ubankadmin.netlify.app/login-admin",
+    github:"https://github.com/Shivanshu-Upadhyay/UBankAdmin.git",
+    img:projec7
+ },
+    {
+    url:"https://ubankadmin.netlify.app/login-admin",
+    github:"https://github.com/Shivanshu-Upadhyay/UBankAdmin.git",
+    img:projec8
  },
 ]
 
