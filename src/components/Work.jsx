@@ -4,9 +4,9 @@ import projec2 from "../img/project2.jpg";
 import projec3 from "../img/project3.jpg";
 import projec4 from "../img/project4.jpg";
 import projec5 from "../img/project5.jpg";
-import projec6 from "../img/project6.png";
-import projec7 from "../img/project7.png";
-import projec8 from "../img/project8.png";
+import projec6 from "../img/project6.jpg";
+import projec7 from "../img/project7.jpg";
+import projec8 from "../img/project8.jpg";
 
 function Work() {
  const project = [
